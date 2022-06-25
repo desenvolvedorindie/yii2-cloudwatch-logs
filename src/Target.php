@@ -5,6 +5,7 @@ use yii\log\Target as BaseTarget;
 use yii\base\InvalidConfigException;
 use Aws\CloudWatchLogs\CloudWatchLogsClient;
 use yii\log\Logger;
+use yii\helpers\VarDumper;
 
 class Target extends BaseTarget
 {
